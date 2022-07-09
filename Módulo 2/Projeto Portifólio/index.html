@@ -9,14 +9,30 @@
       src="https://kit.fontawesome.com/f0acaec35a.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" /> 
   </head>
   <body>
-    <header id="titulo">
-      <h1>Olá sou Wendel Santos, e esse é o meu portifólio!</h1>
-      <h3>Desenvolvedor Full Stack</h3>
-    </header>
     
+    <header id="cabecalho">
+      <a id="logo" href="#titulo">Início</a>
+      <nav id="nav">
+          <button class="fa-solid fa-bars coricone" aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"></button>
+          <ul id="menu" role="menu">
+              <li><a href="#sobremim">Sobre mim</a></li>
+              <li><a href="#Projetos">Projetos</a></li>
+              <li><a href="#Serviços">Serviços</a></li>
+              <li><a href="#MinhasSkills">Minhas Skills</a></li>
+              <li><a href="#contato">Contato</a></li>
+          </ul>
+      </nav>
+  </header>
+  <section id="titulo">
+    <div>
+    <h1>Olá sou Wendel Santos, e esse é o meu portifólio!</h1>
+    <h3>Desenvolvedor Full Stack</h3>
+    </div>
+  </section>
+
     <section id="sobremim">
       <h2>Sobre mim</h2>
       <p>
@@ -48,7 +64,7 @@
         </a>
       </div>
     </section>
- 
+
     <section id="Links com os meus projetos feitos na blueedtech">
       <h2>Projetos</h2>
       <div>
@@ -103,7 +119,7 @@
         <div>
           <i class="fa-thin fa-mobile-retro icone"></i>
         </div>
-        div Sites Responsivos
+        Sites Responsivos
         <div>
           <i class="fa-duotone fa-compass-drafting icone"></i>
         </div>
@@ -111,12 +127,22 @@
       </div>
     </section>
 
-    <section id="icone1">
-      <h2>Minhas Skills</h2>
-      <i class="fa-brands fa-html5 icone1"></i>
-      <i class="fa-brands fa-js icone1"></i>
-      <i class="fa-brands fa-css3 icone1"></i>
-      <i class="fa-brands fa-node icone1"></i>
+    <section>
+      <h2 id="MinhasSkills">Minhas Skills</h2>
+      <div id="conteinerteste">
+        <div>
+          <i class="fa-brands fa-html5 icone1"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-js icone1"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-css3 icone1"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-node icone1"></i>
+        </div>
+      </div>
     </section>
 
     <form action="">
@@ -138,6 +164,8 @@
       <button type="reset">Limpar</button>
     </form>
 
-    <footer>Cuidadosamente feito por Wendel Santos.</footer>
+    <footer >
+      Cuidadosamente feito por Wendel Santos.
+    </footer>
   </body>
 </html>
