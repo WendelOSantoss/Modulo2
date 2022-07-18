@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Cadastro Dev</h1>
+    <section>
+      <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Digite seu nome" id="nome" required />
+        <br />
+        <label for="sobrenome">Sobrenome</label>
+        <input
+          type="text"
+          placeholder="Digite seu sobrenome"
+          id="sobrenome"
+          required
+        />
+        <br />
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          placeholder="Digite seu email"
+          id="email"
+          required
+        />
+        <br />
+
+        <label for="checkbox">De qual lado da aplicação você desenvolve?</label>
+        <input
+          type="radio"
+          value="frontend"
+          name="devweb"
+          id="front"
+          checked
+        />Front-end
+        <input
+          type="radio"
+          value="backend"
+          name="devweb"
+          id="back"
+          checked
+        />Back-end
+        <input
+          type="radio"
+          value="fullstack"
+          name="devweb"
+          id="full"
+          checked
+        />Fullstack
+        <br />
+        <label for="senioridade">Senioridade</label>
+        <select id="senioridade" required>
+          <option selected disabled>Selecione</option>
+          <option value="Junior">Junior</option>
+          <option value="Pleno">Pleno</option>
+          <option value="Senior">Sênior</option>
+        </select>
+        <br />
+        <label for="tecnologia">Selecione as tecnologias que utiliza</label>
+        <input type="checkbox" name="tec" id="tec" />HTML
+        <input type="checkbox" name="tec" id="tec" />CSS
+        <input type="checkbox" name="tec" id="tec" />JavaScript
+        <input type="checkbox" name="tec" id="tec" />PHP
+        <input type="checkbox" name="tec" id="tec" />C#
+        <input type="checkbox" name="tec" id="tec" />Python
+        <input type="checkbox" name="tec" id="tec" />Java
+
+        <br />
+        <label for="experiencia">Conte um pouco mais sobre sua experiência</label>
+        <br>
+        <textarea name="texto" id="texto" cols="50" rows="20"></textarea>
+        <br>
+        <button class="botão"type="submit">Enviar</button>
+      </form>
+    </section>
+  </body>
+</html>
